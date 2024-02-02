@@ -21,7 +21,7 @@ class AgreementActivity : BaseActivity<MainViewModel, ActivityAgreementBinding>(
     override fun initView() {
         super.initView()
         binding.imageViewBack.setOnClickListener {
-            navigateTo(BootActivity::class.java)
+            finish()
         }
     }
 
